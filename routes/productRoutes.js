@@ -6,7 +6,7 @@ const userMidlleware=require('../middlewares/userMiddleware')
 
 router.post('/addproduct',userMidlleware,createProduct)
 router.get('/getproduct',getProducts)
-router.put('/updateproduct',userMidlleware,updateproduct)
+// router.put('/updateproduct',userMidlleware,updateproduct)
 
 router.delete('/deleteproduct',userMidlleware,deleteProduct)
 
